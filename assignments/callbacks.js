@@ -52,8 +52,8 @@ function sumNums(x, y, cb) {
   return cb(x + y);
 }
 
-sumNums(10, 5, function(sum) {
-  console.log(sum);
+sumNums(10, 5, function(add) {
+  console.log(add);
 });
 
 function multiplyNums(x, y, cb) {
@@ -61,8 +61,8 @@ function multiplyNums(x, y, cb) {
   return cb(x * y);
 }
 
-multiplyNums(50, 4, function(multiply) {
-  console.log(multiply);
+multiplyNums(50, 4, function(mult) {
+  console.log(mult);
 });
 
 function contains(item, list, cb) {
